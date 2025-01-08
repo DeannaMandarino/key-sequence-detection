@@ -4,22 +4,33 @@
   <!-- Meta tags for accessibility and SEO -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="Key Sequence Detection - Enter the secret code and watch what happens.">
   <meta name="author" content="Deanna Mandarino">
 
   <!-- Link to external CSS stylesheet -->
   <link rel="stylesheet" href="styles.css">
 
+  <!-- Preconnect to improve font loading performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Link to Google Fonts (Poppins)-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
   <!-- Link to external JavaScript file -->
   <script type="text/javascript" src="./cornify.js"></script>
 
   <!-- Favicon for the page -->
-  
+  <link rel="icon" href="images/key-favicon.png" type="image/x-icon">
 
   <!-- Page title for browser tab -->
   <title>Key Sequence Detection</title>
 </head>
 <body>
+  <main class="main-content">
+    <h1 class="main-content__heading">Pssst! The secret code is: <span class="main-content__code">deanna</span></h1>
+    <h2 class="main-content__subheading">Type it to see what happens!</h2>
+  </main>
 
   <!-- External JavaScript file linked with defer to improve page load -->
   <script src="script.js" defer></script>
