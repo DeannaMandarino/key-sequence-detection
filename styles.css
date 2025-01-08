@@ -31,7 +31,7 @@ body {
 }
 
 /* Container styles */
-.container {
+.main-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,12 +44,12 @@ body {
 }
 
 /* Makes space between h1 and h2 */
-h1 {
+.main-content__heading {
   margin-bottom: 4px;
 }
 
 /* Code text styles */
-.code {
+.main-content__code {
   color: var(--code-text-color);
   font-style: italic;
 }
