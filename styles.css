@@ -1,0 +1,35 @@
+/* Universal reset to eliminate default padding, margin, and border-box model */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Ensures border and padding do not affect element width/height */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: lightpink;
+  color: rgb(216, 118, 133);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 224, 229);
+  width: 35%;
+  height: 20%;
+  border-radius: 20px;
+}
+
+.code {
+  color: rgb(152, 20, 62);
+}
